@@ -1,0 +1,21 @@
+.nav-enlace{
+    display: inline-block;/*se genera un bloque*/
+    background: #9BA3EB;
+    color: #242F9B;
+    padding: 10px 30px;
+    text-decoration: none;/*Quita la linea del enlace*/
+}
+.nav-enlace:hover{
+    background: #DBDFFD;
+}
+nav{
+    display: flex;
+    justify-content: left;
+    background: #9BA3EB;
+    margin: 0px;
+    padding: 0px;
+}
+.fragment{
+    margin: 0px;
+    padding: 0px;
+}
