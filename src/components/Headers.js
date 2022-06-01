@@ -12,7 +12,7 @@ class Headers extends Component {
         return(
             <Fragment>
                 <nav>
-                    <p>React &amp; Material-UI Sample Application </p>
+                    <p className='header'>React &amp; Material-UI Sample Application </p>
                 </nav>
             </Fragment>
         );

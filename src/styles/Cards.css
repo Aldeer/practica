@@ -14,7 +14,14 @@
 img{
     border-radius: 5px;
 }
-p{
-    display: block;
+
+.search-text{
+    text-decoration: underline;
+    margin: 10px 20px;
+    padding: 5px;
+    color: #AAAAAA;
+}
+a{
+    text-decoration: none;
 }
 
