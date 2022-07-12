@@ -6,11 +6,14 @@ import RenderizadoCondicional from "./components/RenderizadoCondicional";
 import RenderizadoElementos from "./components/RenderizadoElementos";
 import { EventosES7, EventosES6, MasSobreEventos } from "./components/Eventos";
 import Padre from "./components/ComunicacionComponentes";
+import CicloVida from "./components/CicloVida";
 
 const App = () => {
   
   return (
-    <div className="container bg-dark text-center text-light">
+    <div className="container text-center text-light">
+      <CicloVida />
+      <hr /><br />
       <Padre />
       <hr /><br />
       <MasSobreEventos />
