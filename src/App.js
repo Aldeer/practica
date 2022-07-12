@@ -8,11 +8,14 @@ import { EventosES7, EventosES6, MasSobreEventos } from "./components/Eventos";
 import Padre from "./components/ComunicacionComponentes";
 import CicloVida from "./components/CicloVida";
 import ContadorHooks from "./components/ContadorHooks";
+import ScrollHooks from "./components/ScrollHooks";
 
 const App = () => {
   
   return (
     <div className="container text-center text-light">
+      <ScrollHooks />
+      <hr /><br />
       <ContadorHooks />
       <hr /><br />
       <CicloVida />
@@ -41,6 +44,8 @@ const App = () => {
         objeto={{nombre:"Emanuel", apellido:"Gomila"}}
         funcion={(num) => num*num}
       />
+      <hr /><br />
+      
     </div>
   );
 }
