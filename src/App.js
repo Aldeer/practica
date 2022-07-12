@@ -7,11 +7,14 @@ import RenderizadoElementos from "./components/RenderizadoElementos";
 import { EventosES7, EventosES6, MasSobreEventos } from "./components/Eventos";
 import Padre from "./components/ComunicacionComponentes";
 import CicloVida from "./components/CicloVida";
+import AjaxApis from "./components/AjaxApis";
 
 const App = () => {
   
   return (
     <div className="container text-center text-light">
+      <AjaxApis />
+      <hr /><br />
       <CicloVida />
       <hr /><br />
       <Padre />
