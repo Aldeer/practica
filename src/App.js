@@ -1,52 +1,15 @@
-import Componente  from "./components/Componente";
-import Propiedades from "./components/Propiedades";
-import React from "react";
-import Estado from "./components/Estado";
-import RenderizadoCondicional from "./components/RenderizadoCondicional";
-import RenderizadoElementos from "./components/RenderizadoElementos";
-import { EventosES7, EventosES6, MasSobreEventos } from "./components/Eventos";
-import Padre from "./components/ComunicacionComponentes";
-import CicloVida from "./components/CicloVida";
-import ContadorHooks from "./components/ContadorHooks";
-import ScrollHooks from "./components/ScrollHooks";
+import React, { Fragment } from 'react'
+import CrudApp from './components/CRUD/CrudApp';
 
 const App = () => {
-  
+
   return (
-    <div className="container text-center text-light">
-      <ScrollHooks />
-      <hr /><br />
-      <ContadorHooks />
-      <hr /><br />
-      <CicloVida />
-      <hr /><br />
-      <Padre />
-      <hr /><br />
-      <MasSobreEventos />
-      <hr /><br />
-      <EventosES7 />
-      <hr /><br />
-      <EventosES6 />
-      <hr /><br />
-      <RenderizadoElementos />
-      <hr /><br />
-      <RenderizadoCondicional />
-      <hr /><br />
-      <Estado />
-      <hr /><br />
-      <Componente />
-      <hr />
-      <Propiedades 
-        cadena="esto es una cadena de texto"
-        numero={20}
-        booleano={true}
-        arreglo={[1,2,3,4,5]}
-        objeto={{nombre:"Emanuel", apellido:"Gomila"}}
-        funcion={(num) => num*num}
-      />
-      <hr /><br />
-      
-    </div>
+    <Fragment>
+      <div>
+        <h1>Ejercicios con React</h1>
+        <CrudApp />
+      </div>
+    </Fragment>
   );
 }
 
