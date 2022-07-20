@@ -1,16 +1,14 @@
-import React, { Fragment } from 'react'
-import CrudApp from './components/CRUD/CrudApp';
+import React, { Fragment } from "react";
+import SongSearch from "./components/song-app/SongSearch";
 
 const App = () => {
-
   return (
     <Fragment>
       <div>
-        <h1>Ejercicios con React</h1>
-        <CrudApp />
+        <SongSearch />
       </div>
     </Fragment>
   );
-}
+};
 
 export default App;

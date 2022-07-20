@@ -1,0 +1,34 @@
+{
+  "cazadores": [
+    {
+      "id": 2,
+      "name": "Kurapika",
+      "typeNen": "Materialización"
+    },
+    {
+      "id": 3,
+      "name": "Killua Zoldyck",
+      "typeNen": "Transformación"
+    },
+    {
+      "id": 4,
+      "name": "Leorio Paradinight",
+      "typeNen": "Emisión"
+    },
+    {
+      "id": 5,
+      "name": "Isaac Netero",
+      "typeNen": "Emisión"
+    },
+    {
+      "name": "kite",
+      "typeNen": "Materializacion",
+      "id": 6
+    },
+    {
+      "name": "Gon Freecss",
+      "typeNen": "Potenciador",
+      "id": 7
+    }
+  ]
+}

@@ -60,7 +60,7 @@ th,
 td {
   text-align: left;
   padding: 0.5rem;
-  border-bottom: thin solid #dedede;
+  border-bottom: thin solid #444;
 }
 
 @media screen and (min-width: 1024px) {
